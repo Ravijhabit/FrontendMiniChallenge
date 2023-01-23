@@ -12,17 +12,17 @@ body{
     --bksecondary: hsl(218, 44%, 22%);
 }
 .box{
-    width:300px;
-    margin:15vh auto;
+    width:325px;
+    margin:20vh auto;
     border-radius: 24px;
-    padding:20px;
+    padding:15px;
     box-sizing:border-box;
     background-color: var(--primary);
     align-items:center;
     text-align: center;
 }
 .guide{
-    width:95%;
+    width:90%;
     margin:0 auto;
 }
 img{
@@ -31,13 +31,11 @@ img{
     align-self: center;
 }
 h1{
-    font-size:20px;
     font-weight: 700;
+    font-size:22px;
     color:var(--bksecondary);
 }
 p{
     font-weight:400;
     color:var(--bkprimary);
 }
-
-/* Media queries */
