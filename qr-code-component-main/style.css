@@ -1,29 +1,18 @@
+/* importing new font */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-body{
-    font-size: 15px;
-    align-items:center;
-    font-family:'Outfit', sans-serif;
-    background-color: var(--secondary);
-}
+/* PseudoSelector */
 :root{
     --primary: hsl(0,0%,100%);
     --secondary: hsl(212,45%,89%);
     --bkprimary: hsl(220, 15%, 55%);
     --bksecondary: hsl(218, 44%, 22%);
 }
-.box{
-    width:325px;
-    margin:20vh auto;
-    border-radius: 24px;
-    padding:15px;
-    box-sizing:border-box;
-    background-color: var(--primary);
+/* tag selector */
+body{
+    font-size: 15px;
     align-items:center;
-    text-align: center;
-}
-.guide{
-    width:90%;
-    margin:0 auto;
+    font-family:'Outfit', sans-serif;
+    background-color: var(--secondary);
 }
 img{
     width:100%;
@@ -38,4 +27,26 @@ h1{
 p{
     font-weight:400;
     color:var(--bkprimary);
+}
+
+/* class selector */
+.box{
+    width:325px;
+    margin:20vh auto;
+    border-radius: 24px;
+    padding:15px;
+    box-sizing:border-box;
+    background-color: var(--primary);
+    align-items:center;
+    text-align: center;
+}
+.guide{
+    width:90%;
+    margin:0 auto;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
