@@ -1,0 +1,22 @@
+header h1{
+    text-align:center;
+}
+main{
+    padding:3rem;
+}
+main button{
+    width: 200px;
+    height:70px;
+    border-radius: 10px;
+    text-align:center;
+    background-color:rgb(184, 184, 247);
+    text-transform:uppercase; 
+    margin:20px;   
+    cursor:pointer;
+    border:0;
+}
+footer{
+    position:absolute;
+    bottom:50px;
+    left:50px;
+}
